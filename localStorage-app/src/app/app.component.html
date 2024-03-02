@@ -1,0 +1,11 @@
+<div class="app-style">
+  <!-- Unimportant instructions and inputs below (change as needed) -->
+  <h1>App component</h1>
+  <p>Enter in your key and value (any type) and click <b>add item</b> to store to local storage</p>
+  <p>Enter in only the key and press <b>get item</b> to retrieve the corresponding value in local storage. The value will show up in the value input box and can be used as the varible <code>data.value</code></p> 
+  <b>Key: </b><input [(ngModel)]="data.key" />
+  <br>
+  <b>Value: </b><input [(ngModel)]="data.value" />
+    <!-- Unimportant instructions and inputs above (change as needed) -->
+  <app-local-storage [(data)]="data"></app-local-storage>
+</div>

@@ -1,0 +1,7 @@
+{
+  "installDependencies": false,
+  "startCommand": "cd localStorage-app && npm install && npm start",
+  "env": {
+    "NODE_ENV": "development"
+  }
+}
